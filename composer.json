@@ -1,0 +1,44 @@
+{
+    "name": "netlinker/api-baselinker",
+    "description": "PHP library for API Baselinker",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NetLinker",
+            "email": "netlinkerpro@gmail.com",
+            "homepage": "https://netlinker.pro",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "Laravel",
+        "Baselinker"
+    ],
+    "require": {
+        "illuminate/support": "~5|~6|~7|~8|~9",
+        "guzzlehttp/guzzle": "^6.5",
+        "ext-json": "*"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/NetLinkerPro/kind-prestashop"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NetLinker\\ApiBaselinker\\ApiBaselinkerServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NetLinker\\ApiBaselinker\\": "/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
