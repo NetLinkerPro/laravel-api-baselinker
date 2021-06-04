@@ -1,5 +1,5 @@
 {
-    "name": "netlinker/api-baselinker",
+    "name": "netlinker/laravel-api-baselinker",
     "description": "PHP library for API Baselinker",
     "type": "library",
     "license": "MIT",
@@ -23,7 +23,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/NetLinkerPro/kind-prestashop"
+            "url": "https://github.com/NetLinkerPro/laravel-api-prestashop"
         }
     ],
     "extra": {
