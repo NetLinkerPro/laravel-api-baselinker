@@ -1,8 +1,8 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api;
-use NetLinker\ApiBaselinker\BaselinkerClient;
-use NetLinker\ApiBaselinker\BaselinkerApiException;
+namespace NetLinker\LaravelApiBaselinker\Api;
+use NetLinker\LaravelApiBaselinker\BaselinkerClient;
+use NetLinker\LaravelApiBaselinker\BaselinkerApiException;
 
 class TokenValidator
 {

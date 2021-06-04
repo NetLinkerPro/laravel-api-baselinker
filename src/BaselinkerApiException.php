@@ -1,6 +1,6 @@
 <?php
 
-namespace NetLinker\ApiBaselinker;
+namespace NetLinker\LaravelApiBaselinker;
 
 use Exception;
 

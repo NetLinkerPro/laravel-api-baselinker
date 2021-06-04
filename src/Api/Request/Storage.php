@@ -1,13 +1,13 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api\Request;
+namespace NetLinker\LaravelApiBaselinker\Api\Request;
 
 use Illuminate\Support\Facades\Config;
-use NetLinker\ApiBaselinker\Api\Client;
-use NetLinker\ApiBaselinker\Api\Response\Response;
-use NetLinker\ApiBaselinker\Api\Request\Contracts\Storage as StorageContract;
-use NetLinker\ApiBaselinker\Api\Services\Storages\Contracts\GetAllProductsQuantityAsArray;
-use NetLinker\ApiBaselinker\BaselinkerApiException;
+use NetLinker\LaravelApiBaselinker\Api\Client;
+use NetLinker\LaravelApiBaselinker\Api\Response\Response;
+use NetLinker\LaravelApiBaselinker\Api\Request\Contracts\Storage as StorageContract;
+use NetLinker\LaravelApiBaselinker\Api\Services\Storages\Contracts\GetAllProductsQuantityAsArray;
+use NetLinker\LaravelApiBaselinker\BaselinkerApiException;
 use Illuminate\Support\Facades\Cache;
 
 class Storage extends Client implements StorageContract

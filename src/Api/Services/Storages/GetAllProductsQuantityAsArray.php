@@ -1,9 +1,9 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api\Services\Storages;
-use NetLinker\ApiBaselinker\Api\Request\Contracts\Storage;
-use NetLinker\ApiBaselinker\Api\Services\Storages\Contracts\GetAllProductsQuantityAsArray as GetAllProductsQuantityAsArrayContract;
-use NetLinker\ApiBaselinker\BaselinkerApiException;
+namespace NetLinker\LaravelApiBaselinker\Api\Services\Storages;
+use NetLinker\LaravelApiBaselinker\Api\Request\Contracts\Storage;
+use NetLinker\LaravelApiBaselinker\Api\Services\Storages\Contracts\GetAllProductsQuantityAsArray as GetAllProductsQuantityAsArrayContract;
+use NetLinker\LaravelApiBaselinker\BaselinkerApiException;
 
 class GetAllProductsQuantityAsArray implements GetAllProductsQuantityAsArrayContract
 {

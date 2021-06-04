@@ -1,8 +1,8 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api\Response;
+namespace NetLinker\LaravelApiBaselinker\Api\Response;
 
-use NetLinker\ApiBaselinker\BaselinkerApiException;
+use NetLinker\LaravelApiBaselinker\BaselinkerApiException;
 use Psr\Http\Message\ResponseInterface;
 
 class Response

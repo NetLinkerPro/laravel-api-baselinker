@@ -1,9 +1,9 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api\Services\Orders;
-use NetLinker\ApiBaselinker\Api\Request\Contracts\Order;
-use NetLinker\ApiBaselinker\Api\Services\Orders\Contracts\GetAllFromDateOrdersAsArray as GetAllFromDateOrdersAsArrayContract;
-use NetLinker\ApiBaselinker\BaselinkerApiException;
+namespace NetLinker\LaravelApiBaselinker\Api\Services\Orders;
+use NetLinker\LaravelApiBaselinker\Api\Request\Contracts\Order;
+use NetLinker\LaravelApiBaselinker\Api\Services\Orders\Contracts\GetAllFromDateOrdersAsArray as GetAllFromDateOrdersAsArrayContract;
+use NetLinker\LaravelApiBaselinker\BaselinkerApiException;
 
 class GetAllFromDateOrdersAsArray implements GetAllFromDateOrdersAsArrayContract
 {

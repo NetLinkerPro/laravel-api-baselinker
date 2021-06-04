@@ -1,12 +1,12 @@
 <?php
 
 
-namespace NetLinker\ApiBaselinker;
+namespace NetLinker\LaravelApiBaselinker;
 
 
 use Illuminate\Support\ServiceProvider;
 
-class ApiBaselinkerServiceProvider extends ServiceProvider
+class LaravelApiBaselinkerServiceProvider extends ServiceProvider
 {
 
 }

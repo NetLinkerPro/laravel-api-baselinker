@@ -1,9 +1,9 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api\Request\Contracts;
+namespace NetLinker\LaravelApiBaselinker\Api\Request\Contracts;
 
-use NetLinker\ApiBaselinker\Api\Response\Response;
-use NetLinker\ApiBaselinker\BaselinkerApiException;
+use NetLinker\LaravelApiBaselinker\Api\Response\Response;
+use NetLinker\LaravelApiBaselinker\BaselinkerApiException;
 
 interface Order
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api\Request;
+namespace NetLinker\LaravelApiBaselinker\Api\Request;
 
-use NetLinker\ApiBaselinker\Api\Client;
-use NetLinker\ApiBaselinker\Api\Response\Response;
-use NetLinker\ApiBaselinker\Api\Request\Contracts\Order as OrderContract;
-use NetLinker\ApiBaselinker\Api\Services\Orders\Contracts\GetAllFromDateOrdersAsArray;
-use NetLinker\ApiBaselinker\BaselinkerApiException;
+use NetLinker\LaravelApiBaselinker\Api\Client;
+use NetLinker\LaravelApiBaselinker\Api\Response\Response;
+use NetLinker\LaravelApiBaselinker\Api\Request\Contracts\Order as OrderContract;
+use NetLinker\LaravelApiBaselinker\Api\Services\Orders\Contracts\GetAllFromDateOrdersAsArray;
+use NetLinker\LaravelApiBaselinker\BaselinkerApiException;
 
 class Order extends Client implements OrderContract
 {

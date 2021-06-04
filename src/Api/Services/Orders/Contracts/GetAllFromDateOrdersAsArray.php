@@ -1,8 +1,8 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api\Services\Orders\Contracts;
-use NetLinker\ApiBaselinker\Api\Request\Contracts\Order;
-use NetLinker\ApiBaselinker\BaselinkerApiException;
+namespace NetLinker\LaravelApiBaselinker\Api\Services\Orders\Contracts;
+use NetLinker\LaravelApiBaselinker\Api\Request\Contracts\Order;
+use NetLinker\LaravelApiBaselinker\BaselinkerApiException;
 
 interface GetAllFromDateOrdersAsArray
 {

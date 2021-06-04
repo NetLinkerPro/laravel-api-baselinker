@@ -1,8 +1,8 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Api;
+namespace NetLinker\LaravelApiBaselinker\Api;
 
-use NetLinker\ApiBaselinker\Config;
+use NetLinker\LaravelApiBaselinker\Config;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface;
 use Psr\Http\Message\ResponseInterface;

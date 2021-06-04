@@ -1,10 +1,10 @@
 <?php
 
-namespace NetLinker\ApiBaselinker\Contracts;
+namespace NetLinker\LaravelApiBaselinker\Contracts;
 
-use NetLinker\ApiBaselinker\Api\Request\Contracts\Order as OrderContract;
-use NetLinker\ApiBaselinker\Api\Request\Contracts\Storage as StorageContract;
-use NetLinker\ApiBaselinker\Config;
+use NetLinker\LaravelApiBaselinker\Api\Request\Contracts\Order as OrderContract;
+use NetLinker\LaravelApiBaselinker\Api\Request\Contracts\Storage as StorageContract;
+use NetLinker\LaravelApiBaselinker\Config;
 
 interface BaselinkerClient
 {

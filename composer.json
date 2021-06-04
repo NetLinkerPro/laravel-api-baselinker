@@ -29,14 +29,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "NetLinker\\ApiBaselinker\\ApiBaselinkerServiceProvider"
+                "NetLinker\\LaravelApiBaselinker\\LaravelApiBaselinkerServiceProvider"
             ],
             "aliases": {}
         }
     },
     "autoload": {
         "psr-4": {
-            "NetLinker\\ApiBaselinker\\": "/src"
+            "NetLinker\\LaravelApiBaselinker\\": "/src"
         }
     },
     "minimum-stability": "dev",
