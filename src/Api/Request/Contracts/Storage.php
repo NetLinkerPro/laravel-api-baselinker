@@ -33,6 +33,15 @@ interface Storage
     public function getProductsData(array $data): Response;
 
     /**
+     * Get products list
+     *
+     * @param array $data
+     * @return Response
+     * @throws BaselinkerApiException
+     */
+    public function getProductsList(array $data): Response;
+
+    /**
      * Update products prices
      *
      * @param array $data

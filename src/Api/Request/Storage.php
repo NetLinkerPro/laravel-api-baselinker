@@ -57,6 +57,20 @@ class Storage extends Client implements StorageContract
     }
 
     /**
+     * Get products list
+     *
+     * @param array $data
+     * @return Response
+     * @throws BaselinkerApiException
+     */
+    public function getProductsList(array $data): Response
+    {
+        return new Response(
+            $this->post('getProductsList', $data)
+        );
+    }
+
+    /**
      * Update products prices
      *
      * @param array $data
