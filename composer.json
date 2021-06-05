@@ -38,7 +38,5 @@
         "psr-4": {
             "NetLinker\\LaravelApiBaselinker\\": "/src"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
